@@ -16,6 +16,10 @@ public class SpringBootDockerApplication {
 	public String save() {
 		return "save";
 	}
+	@GetMapping("/save")
+	public String update() {
+		return "update";
+	}
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootDockerApplication.class, args);
