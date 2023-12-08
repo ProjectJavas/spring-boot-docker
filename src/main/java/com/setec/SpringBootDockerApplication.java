@@ -16,7 +16,7 @@ public class SpringBootDockerApplication {
 	public String save() {
 		return "save";
 	}
-	@GetMapping("/save")
+	@GetMapping("/update")
 	public String update() {
 		return "update";
 	}
